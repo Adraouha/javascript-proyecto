@@ -4,29 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>practicar js </title>
+    <title>JS Masterclass - Loops & Logic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Fira+Code&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
     <header>
-
+        <h1>JS Masterclass</h1>
     </header>
     <main>
-        <h1>practicar js</h1>
-        <section>
-            <article>
-                <h2></h2>
-            </article>
+        <!-- Ejercicio 1: 50 a 20 Descendente -->
+        <section id="exercise-1">
+            <h2>Números 50 a 20 (Descendente)</h2>
+            <div id="result-1" class="result-box">Cargando...</div>
+        </section>
 
+        <!-- Ejercicio 2: Pares entre dos números -->
+        <section id="exercise-2">
+            <h2>Números Pares Entre Dos Valores</h2>
+            <div class="button-group">
+                <button onclick="ejecutarEjercicio2()">Iniciar Cálculo</button>
+                <button class="btn-secondary" onclick="limpiarEjercicio(2)">Limpiar</button>
+            </div>
+            <div id="result-2" class="result-box">Esperando entrada...</div>
+        </section>
+
+        <!-- Ejercicio 3: Carrito de la compra -->
+        <section id="exercise-3">
+            <h2>Carrito de la Compra (Descuento 15%)</h2>
+            <div class="button-group">
+                <button onclick="ejecutarEjercicio3()">Simular Compra</button>
+                <button class="btn-secondary" onclick="limpiarEjercicio(3)">Limpiar</button>
+            </div>
+            <div id="result-3" class="result-box">Esperando compra...</div>
         </section>
     </main>
     <footer>
-        <p>practicar js</p>
+        <p>&copy; 2026 JS Proyecto - Advanced Coding</p>
     </footer>
-    <script src="script.js"></script>
 
+    <!-- Incluimos script.js por si acaso y for.js que es donde trabajaremos -->
+    <script src="script.js"></script>
+    <script src="for.js"></script>
 </body>
 
 </html>
