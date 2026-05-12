@@ -9,8 +9,8 @@
 // --- EJERCICIO 1: Números 50 a 20 Descendente ---
 function mostrarDescendente() {
     let output = "";
-    for (let i = 20; i <= 50; i++) {
-        output += i + (i < 50 ? ", " : "");
+    for (let i = 50; i >= 20; i--) {
+        output += i + (i > 20 ? ", " : "");
     }
     document.getElementById("result-1").innerText = output;
 }
