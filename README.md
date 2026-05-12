@@ -1,18 +1,14 @@
 # javascript proyecto
 practicar  el js con HTML Y CSS
 
-## condicionales if...else Lab
+
+## Bucles FOR Lab
+
 
 ### Instructions
 
-**1- ENTRADA DISCOTECA**
+1- Imprime los números entre 20 y 50, ambos incluidos, en orden DESCENDENTE
 
-A la entrada a una discoteca, se pregunta al cliente qué edad tiene. Darle una respuesta diferente si la edad es mayor, menor o igual a 18 años.
+2- Imprime los números pares entre dos números que introduzca el usuario
 
-**2 - CINCO COLORES**
-
-Se le pide al usuario que escoja un color (azul, verde, rojo, amarillo y violeta) y darle una respuesta en relación al color elegido. Ejemplo: "el azul es como el mar, siempre que el cielo sea azul (y sea de día)". Dar otra respuesta en el caso que NO elija ninguno de los colores anteriores.
-
-**3- LAMPARA NO ENCIENDE**
-
-Hacer 2 preguntas prompt (si/no). Se puede anidar dos condicionales (uno dentro de otro). Crear el código con condicionales para el algoritmo representado por el siguiente diagrama de flujo: https://andresdevivancocm.wordpress.com/wp-content/uploads/2015/06/lampara2.png
+3- CARRITO DE LA COMPRA: se le pide al usuario el precio de 5 productos. Se calcula el total. En el caso de sumar 100 euros o más, se le da un descuento del 15%. Imprimir en tal caso el precio original y el precio final con el descuento. Si no, solo el precio total. Nota: te servirá crear una variable que vaya acumulando el precio total a medida que se vayan introduciendo precios (acumulador)
